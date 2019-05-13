@@ -60,13 +60,13 @@ var routes = [
         loadChildren: 'app/components/features/setting/setting.module#SettingModule'
     }, */
     {
-        path: 'tab', component: _components_tab_tab_component__WEBPACK_IMPORTED_MODULE_2__["TabComponent"],
+        path: '', component: _components_search_search_component__WEBPACK_IMPORTED_MODULE_3__["SearchComponent"],
         children: [
-            { path: 'tab', component: _components_tab_tab_component__WEBPACK_IMPORTED_MODULE_2__["TabComponent"] },
+            { path: 'search', component: _components_search_search_component__WEBPACK_IMPORTED_MODULE_3__["SearchComponent"] },
         ]
     },
-    { path: 'search', component: _components_search_search_component__WEBPACK_IMPORTED_MODULE_3__["SearchComponent"] },
-    { path: '**', redirectTo: 'tasearchb' }
+    { path: 'tab', component: _components_tab_tab_component__WEBPACK_IMPORTED_MODULE_2__["TabComponent"] },
+    { path: '**', redirectTo: 'search' }
 ];
 var config = {
     useHash: true,
