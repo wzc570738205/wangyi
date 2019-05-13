@@ -60,7 +60,7 @@ var routes = [
         loadChildren: 'app/components/features/setting/setting.module#SettingModule'
     }, */
     {
-        path: '', component: _components_tab_tab_component__WEBPACK_IMPORTED_MODULE_2__["TabComponent"],
+        path: 'tab', component: _components_tab_tab_component__WEBPACK_IMPORTED_MODULE_2__["TabComponent"],
         children: [
             { path: 'tab', component: _components_tab_tab_component__WEBPACK_IMPORTED_MODULE_2__["TabComponent"] },
         ]
