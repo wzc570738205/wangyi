@@ -48,7 +48,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 var routes = [
-    { path: '', redirectTo: 'tab', pathMatch: 'full' },
+    { path: '', redirectTo: 'search', pathMatch: 'full' },
     /* {
         path: 'dashboards', component: BasicLayoutComponent,
         children: [
@@ -66,7 +66,7 @@ var routes = [
         ]
     },
     { path: 'search', component: _components_search_search_component__WEBPACK_IMPORTED_MODULE_3__["SearchComponent"] },
-    { path: '**', redirectTo: 'tab' }
+    { path: '**', redirectTo: 'tasearchb' }
 ];
 var config = {
     useHash: true,
