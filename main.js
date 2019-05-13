@@ -48,7 +48,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 var routes = [
-    { path: '', redirectTo: 'search', pathMatch: 'full' },
+    { path: '', redirectTo: 'wangyi', pathMatch: 'full' },
     /* {
         path: 'dashboards', component: BasicLayoutComponent,
         children: [
@@ -62,11 +62,11 @@ var routes = [
     {
         path: '', component: _components_search_search_component__WEBPACK_IMPORTED_MODULE_3__["SearchComponent"],
         children: [
-            { path: 'search', component: _components_search_search_component__WEBPACK_IMPORTED_MODULE_3__["SearchComponent"] },
+            { path: 'wangyi', component: _components_search_search_component__WEBPACK_IMPORTED_MODULE_3__["SearchComponent"] },
         ]
     },
     { path: 'tab', component: _components_tab_tab_component__WEBPACK_IMPORTED_MODULE_2__["TabComponent"] },
-    { path: '**', redirectTo: 'search' }
+    { path: '**', redirectTo: 'wangyi' }
 ];
 var config = {
     useHash: true,
@@ -509,7 +509,7 @@ var TabComponent = /** @class */ (function () {
         this.audio.pause();
     };
     TabComponent.prototype.gosearch = function () {
-        this.router.navigate(['search']);
+        this.router.navigate(['wangyi']);
     };
     TabComponent.prototype.showmp3 = function () {
         alert(this.src);
